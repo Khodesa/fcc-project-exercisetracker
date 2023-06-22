@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 require('dotenv').config();
 const mongoose = require('mongoose');
-const nanoid = require("nanoid");
+const nanoid = import("nanoid");
 const shortid = require('shortid')
 
 app.use(cors());
